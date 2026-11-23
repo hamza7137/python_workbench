@@ -1,0 +1,75 @@
+# Classification of Programming Languages
+
+Programming languages can broadly be classified into two categories based on how easily humans and computers can understand them:
+
+1. **Low-Level Languages**
+2. **High-Level Languages**
+
+### 1. Low-Level Languages
+
+Low-level languages are closer to the computer's native language (machine code). They are easier for computers to understand but more difficult for 
+humans to read and write.
+
+**Examples:** Machine Language and Assembly Language.
+
+### 2. High-Level Languages
+
+High-level languages are designed to be more human-readable. They use English-like syntax and abstractions, making them easier for developers to write, 
+understand, and maintain.
+
+**Examples:** Python, Java, C, C++, and C#.
+
+### What is Python?
+
+Python is a **high-level, interpreted programming language**.
+
+For example:
+
+```python
+print("Hi")
+```
+
+The syntax is simple and easy for humans to understand. We don't need to write complex machine-level instructions to perform basic operations.
+
+---
+
+# How Programming Code Gets Executed
+
+Based on how source code is translated and executed, programming languages commonly use two approaches:
+
+1. Compilation
+2. Interpretation
+
+### 1. Compiled Languages
+
+In the traditional compiled approach, the source code is translated into machine code (or another executable form) before the program is executed.
+
+The compiler processes the source code and generates an executable output.
+
+**Execution flow:**
+
+`Source Code → Compiler → Executable Code → Execution → Output`
+
+**Examples:** C and C++.
+
+### 2. Interpreted Languages
+
+In the traditional interpreted approach, an interpreter reads and executes the source code, typically statement by statement, without requiring a 
+separate native executable to be generated beforehand.
+
+**Execution flow:**
+
+`Source Code → Interpreter → Execution → Output`
+
+**Examples:** Python and JavaScript.
+
+---
+
+### Key Takeaway
+
+- **High-Level vs. Low-Level:** Describes how close a programming language is to human language or machine language.
+- **Compiled vs. Interpreted:** Describes different approaches to translating and executing program code.
+
+**Important:** These classifications are not mutually exclusive. For example, Python is a high-level language, but its standard implementation 
+(CPython) first compiles source code into bytecode, which is then executed by the Python Virtual Machine.
+

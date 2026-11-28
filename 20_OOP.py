@@ -2,16 +2,17 @@
 # Simulating real world entities or scenarios in programming, that can be called as Object Oriented Programming
 
 '''
-Object Oriented Programming empowers developers to build modular, maintainable and scalable applications.
+OOP : is a programming paradigm based on the concept of objects that contain variables and methods.
 
-OOP is a way of organizing code that uses objects and classes to represent real-world entities and their behavior.
+1. Improves code reusability
+2. Enhances maintainability and scalability
+3. Makes programs easier to understand and manage
 
-In OOP, object has attributes thing that has specific data and can perform certain actions using methods.
+Class : A Class is a blueprint or template used to create objects it contains variables and methods
+that objects of that class will have.
 
-1. Organizes code into classes and objects.
-2. Supports encapsulation to group data and methods together.
-3. Enables inheritance for reusability and hierarchy.
-4. Allows polymorphism for flexible method implementation.
+Object : An Object is an instance of a class that represents a real-world entity. 
+It is used to access the variables and methods defined inside a class.
 '''
 
 # Syntax :

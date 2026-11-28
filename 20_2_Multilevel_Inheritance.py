@@ -9,6 +9,8 @@ Example:
 Class A -> Parent (Base class)
 Class B -> Inherits from A (Child class)
 Class C -> Inherits from B (Derived class)
+
+C inherits from B, While B inherits from A. This allows C to access the attributes and methods of both B and A.
 '''
 class IPhone:
     def __init__(self, model, storage):

@@ -45,10 +45,11 @@ class IPhone:
 # Method - Function specific to a Class/Object
 
 ip1 = IPhone("13", "256GB")
-print(ip1.storage)
 print(ip1.model)
+print(ip1.storage)
 ip1.call()
 
 ip2 = IPhone("14", "1TB")
+print(ip2.model)
 print(ip2.storage)
 ip2.call()
